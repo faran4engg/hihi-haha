@@ -1,12 +1,12 @@
 import React from "react";
-import UserProfileCard from "./component/NxProfileCard";
+import NxTimeLine from "./component/NxTimeLine/index";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <UserProfileCard />
+      <NxTimeLine />
     </div>
   );
 }
