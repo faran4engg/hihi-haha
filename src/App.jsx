@@ -3,6 +3,8 @@ import NxTimeLine from "./component/NxTimeLine/index";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Wall from "./component/NxWall/NxWall";
+import NxInterest from "./component/NxInterest";
+import { interestList } from "./component/NxInterest/Data";
 
 function App() {
   return (
